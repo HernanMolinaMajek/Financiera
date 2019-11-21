@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ba5bebb6-0c2a-4208-9d2b-ba39ccf19b89" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://ds.dyndns.org:9000/ServicioPublicoCredito?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioPublicoCredito.xsd" MetadataType="Schema" ID="62e73263-cd1d-4d25-9578-b9c994592cd5" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/ServicioPublicoCredito?xsd=xsd0" />
+    <MetadataFile FileName="ServicioPublicoCredito1.xsd" MetadataType="Schema" ID="50cf67f8-bd01-41ef-90a0-825e9f260307" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/ServicioPublicoCredito?xsd=xsd1" />
+    <MetadataFile FileName="ServicioPublicoCredito2.xsd" MetadataType="Schema" ID="cbf549b8-abf1-40a6-a508-0d816602039e" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/ServicioPublicoCredito?xsd=xsd2" />
+    <MetadataFile FileName="ServicioPublicoCredito3.xsd" MetadataType="Schema" ID="1985ed95-47f5-4689-9035-a4f9287a9965" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/ServicioPublicoCredito?xsd=xsd3" />
+    <MetadataFile FileName="ServicioPublicoCredito.wsdl" MetadataType="Wsdl" ID="55f8c37b-d8a4-4dcd-9864-f181367c49dc" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/ServicioPublicoCredito?wsdl" />
+    <MetadataFile FileName="ServicioPublicoCredito1.wsdl" MetadataType="Wsdl" ID="b47cf9e8-c667-47a3-9057-f3b9659570ee" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/ServicioPublicoCredito?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
